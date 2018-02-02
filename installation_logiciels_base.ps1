@@ -1,3 +1,3 @@
 # Installation des logiciels de base
 
-iex ((new-object net.webClient).DownloadString('https://github.com/DLatreyte/chocolatey/logiciels_base.ps1'))
+iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.com/DLatreyte/chocolatey/master/logiciels_base.ps1'))
