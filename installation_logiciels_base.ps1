@@ -1,3 +1,3 @@
 # Installation des logiciels de base
 
-iex ((new-object net.webClient).DownloadString('https://gist.githubusercontent.com/amogram/8217460/raw/ecdc2b5050af2b4803488c86e1ea07e93164de6b/chocolatey-env-setup.ps1'))
+iex ((new-object net.webClient).DownloadString('https://github.com/DLatreyte/chocolatey/logiciels_base.ps1'))
