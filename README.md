@@ -1,6 +1,12 @@
 # Chocolatey
 
-Fichiers d'installation des logiciels à l'aide de chocolatey.
+Notes pour l'utilisation de Chocolatey.
+
+# Modification à apporter à PowerShell
+
+```
+Set-ExecutionPolicy remotesigned
+```
 
 # Installation de chocolatey sur un poste
 
