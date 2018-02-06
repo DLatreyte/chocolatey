@@ -23,11 +23,13 @@ iex ((new-object net.webClient).DownloadString('https://raw.githubusercontent.co
 - À distance (en utilisant PowerShell)
 
     - Déclaration des ordinateurs cible
+
 ```
 $workstations = (“computer1″,”computer2″,”computer3”)
 ```
 
     - Installation
+
 ```
 Invoke-Command -ComputerName $workstations -ScriptBlock {choco install firefox -y | Select-String -Pattern “Chocolatey installed” } | select PSComputername,Line
 ```
